@@ -12,7 +12,7 @@ body{
  * Common Styles
  */
 
-#header, #main, #footer{
+#header, #main, #footer,#mycart{
 	padding: 20px;
 }
 
@@ -142,4 +142,39 @@ body{
 #contact-form .form-control{
 	border-radius: 5px;
 	border: 1px solid #cccccc; 
+}
+#mycart_table{
+	padding: 20px;
+	width: 100%;
+}
+th{
+	text-align: center;
+	background-color:#3e9cbf ;
+	font-size: 20px;
+	padding: 10px;
+	color: #fff;
+}
+td{
+	text-align: center;
+	background-color: #999;
+	font-size: 15px;
+	padding: 10px;
+}
+
+#remove_all_btn{
+	cursor: pointer;
+	background-color: #3e9cbf;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	border: none;
+	font-weight: bold;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+	padding: 5px;
+	width:200px;
+	border-radius: 4px;
+}
+.remove:hover{
+	cursor: pointer;
+	background-color: #fff;
 }
